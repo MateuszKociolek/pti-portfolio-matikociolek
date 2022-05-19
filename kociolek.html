@@ -15,27 +15,45 @@
                   <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="kocicont.html">Contant</a>
+                  <a class="nav-link" href="kocicont.html">Projects</a>
                 </li>
             </ul>
         </div>
         <div class="row mt-5">
-            <div class="col-3">
-                <img src="koci.jpg" alt="" class="rounded">
+            <div class="col-3 d-flex justify-content-ceneter">
+                <img src="koci.jpg" alt="" class="rounded" style="height: 500px; width:auto;">
             </div>
             <div class="col-9">
                 <div class="alert alert-dark text-center" style="font-family: cursive; color: rgb(112, 112, 112);">
-                    <p class="lead">
+                    <p class=" lead">
                         Kilka słów o mnie
                     </p>
                 </div>
-                <div class="border border-light">
+                <div class="border border-light p-4">
                     <h3>Siema!</h3>
                     <br>
                     <p>Jestem Mateusz! I uczę się w Prywatnym Techinkum Informatycznym</p>
+                    <p>Programowaniem uczę się od 2 lat. Piszę w takich językach jak:</p>
+                    <ul class="list-unstyled">
+                        <ul>
+                            <li>Javascript/Vue.js</li>
+                            <li>CSS/Bootstrap</li>
+                            <li>Python</li>
+                        </ul>
+                    </ul>
+                    <h3 class="mt-5">Napisz do mnie!</h3>
+                    <form class="mt-4">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email:</label>
+                            <input type="email" class="form-control mt-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="przyklad@mail.com">
+                        </div>
+                        <div class="form-group mt-4">
+                            <label for="exampleFormControlTextarea1">Treść:</label>
+                            <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary mt-3">Wyślij</button>
+                    </form>
+                    
                 </div>
             </div>
         </div>
